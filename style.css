@@ -1,0 +1,58 @@
+/* #nice {
+  display: flex;
+  width: 300px;
+  justify-content: space-between;
+}
+*/
+body{
+  width: 1160px;
+  margin-left: 100px;
+  margin-right: 100px;
+  background-color: darkgrey;
+}
+
+div {
+  display: flex;
+}
+
+#container {
+  justify-content: space-between;
+  align-items: center;
+}
+
+#unique{
+  justify-content: space-between;
+  align-items: center;
+}
+
+.aza {
+   color:  azure;
+   background-color: chocolate;
+   border-color: darkblue;
+   border-radius: 12.5px;
+   padding-left: 20px;
+   padding-right: 20px;
+   padding-top: 5px;
+   padding-bottom: 5px;
+}
+
+button:hover{
+  background-color: maroon;
+  transition-duration: 1s;
+}
+
+p{
+  color: indigo;
+  font-family: cursive;
+  font-size: 20px;
+  text-transform: uppercase;
+  text-align: left;
+}
+
+h2 {
+  text-align: center;
+  color: olive;
+  font-size: 25px;
+  font-family: monospace;
+  text-shadow: 1px 1px 1px darkgreen;
+}
